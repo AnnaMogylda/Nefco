@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <style>
+    
+    .slider{
+        position: relative;
+        width: 948px;
+        height:400px;
+        border:1px solid black;
+    }
+
+    .slide2, .slide1, .slide3{
+        position: absolute;
+        width: 948px;
+        height:400px;
+        border:1px solid black;
+    }
+
+    #slide1:checked ~ .slide1{
+        background: green;
+    }
+
+    #slide2:checked ~ .slide2{
+        background: red;
+    }
+
+    #slide3:checked ~ .slide3{
+        background: pink;
+    }
+
+    #slide1, #slide2, #slide3{
+        position: absolute;
+        z-index: 10;
+    }
+
+    #slide2{
+        left: 5%;
+    }
+
+    #slide3{
+        left: 10%;
+    }
+
+    
+
+    </style>
+</head>
+<body>
+    
+<h1> My attempts to create slider </h1>
+<div class="slider">
+    <input type="radio" name="controls" id="slide1"  checked/>
+    <input type="radio" name="controls" id="slide2"/>
+    <input type="radio" name="controls" id="slide3"/>
+    <div class="slides slide1"></div>
+     <div class="slides slide2"></div>
+     <div class="slides slide3"></div>
+</div>
+
+</body>
+</html>

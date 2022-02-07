@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nefco</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Homepage" class="logo">
+        <nav role="navigation" aria-label="Menu principal">
+            <button class="menu"
+                    aria-label="Menu."
+                    aria-expanded="false"
+                    id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true"
+                     height="44px"
+                     width="44px"
+                     id="Layer_1"
+                     style="enable-background:new 0 0 32 32;"
+                     viewBox="0 0 32 32"
+                     xml:space="preserve">
+                    <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+                </svg>
+            </button>
+                <ul class="menu-items" id="menu-items">
+                    <li class="menu-item">
+                        <a href="#"> Our team</a>
+                    <li class="menu-item">
+                        <a href="#" id="products">Products</a>
+                        <ul class="product_items" id="product_items">
+                            <li class="product_item smartphones" id="smartphones"> <a href="#">Smartphones</a>
+                                <ul id="smartphones_list">
+                                    <li class="sub_product_item"><a href="#">Samsung</a></li>
+                                    <li class="sub_product_item"><a href="#">Apple</a></li>
+                                    <li class="sub_product_item"><a href="#">Huawei</a></li>
+                                </ul>
+                            </li>
+                            <li class="product_item laptops" id="laptops"> <a href="#"> Laptops</a>
+                                <ul d="laptops_list">
+                                    <li class="sub_product_item"><a href="#" >Dell</a></li>
+                                    <li class="sub_product_item"><a href="#"> Mac</a></li>
+                                    <li class="sub_product_item"><a href="#">Lenovo</a></li>
+                                </ul>
+                            </li>
+                            <li class="product_item accessories" id="accessories"><a href="#">Accessories</a>
+                                <ul id="accessories_list">
+                                    <li class="sub_product_item"><a href="#" >Mouse</a></li>
+                                    <li class="sub_product_item"><a href="#" >Keyboard</a></li>
+                                    <li class="sub_product_item"><a href="#" >Headphones</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Advantages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </button>
+            <ul class="full-menu">
+                <li class="menu-item">
+                    <a href="#">Our team</a>
+                <li class="menu-item" id="full_menu_products">
+                    <a href="#" aria-expanded="false" id="full_menu_products_link">Products</a>
+                    <ul class="product_items" id="full_menu_product_items">
+                        <li class="product_item smartphones" id="full_menu_phones"> <a href="#">Smartphones</a>
+                            <ul id="full_menu_phones_list">
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Huawei</a></li>
+                            </ul>
+                        </li>
+                        <li class="product_item laptops" id="full_menu_laptops"> <a href="#" >Laptops</a>
+                            <ul id="full_menu_laptops_list">
+                                <li><a href="#">Dell</a></li>
+                                <li><a href="#">Mac</a></li>
+                                <li><a href="#">Lenovo</a></li>
+                            </ul>
+                        </li>
+                        <li class="product_item accessories" id="full_menu_accessories"><a href="#" >Accessories</a>
+                            <ul id="full_menu_accessories_list">
+                                <li><a href="#">Mouse</a></li>
+                                <li><a href="#">Keyboard</a></li>
+                                <li><a href="#">Headphones</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                 <li class="menu-item">
+                    <a href="#">Advantages</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <h1> Nefco</h1>
+        <p>Quality we insure</p>
+        <div class="slider" aria-hidden="true">
+            <p class="slider_text">Best in what we do</p>
+            <input type="radio" name="controls" id="slide1"  checked/> 
+            <input type="radio" name="controls" id="slide2"/>
+            <input type="radio" name="controls" id="slide3"/> 
+            <div class="slides slide1"></div>
+            <div class="slides slide2"></div>
+            <div class="slides slide3"></div>
+        </div>
+    </main>
+    <article class="about_us">
+        <h2> Our team</h2>
+        <p class="team_link"> Please
+            <a href="#">find more information about our team</a>
+        </p>
+        <section class="team">
+            <div class="team_member">
+                <img src="img/NIK.jpg" alt="Peter Schwarz">
+                <p>Director</p>
+                <p>
+                    <a href="tel:380661112231" >+38(066)111-22-31 </a>
+                </p>
+            </div>
+            <div class="team_member">
+                <img src="img/ant2.jpg" alt="Anna White">
+                <p>Distibution manager</p>
+                <p>
+                    <a href="tel:380661112232">+38(066)111-22-32 </a>
+                </p>
+            </div>
+            <div class="team_member">
+                <img src="img/kolot.jpg" alt="Tim Rot">
+                <p>Customer service <br/>manager</p>
+                <p>
+                    <a href="tel:38 0661112233" >+38(066)111-22-33 </a>
+                </p>
+            </div>
+            <div class="team_member">
+                <img src="img/obolenska.jpg" alt="Eva Green">
+                <p>Supply manager</p>
+                <p>
+                    <a href="tel:380661112234">+38(066)111-22-34 </a>
+                </p>
+            </div>    
+        </section>          
+    </article>
+    <article>
+        <section>
+            <h2> How Nefco delivers the most advanced solution </h2>
+            <h3>Technology</h3>
+            <p>
+                15% of the yearly revenues is being invested back into research, development and innovation to ensure Nefco's leading position in
+                Technology selling. On an ongoing basis, new functionalities and features are developed based on an internal roadmap and customer feedback. 
+                An ever-growing level of automation reduces manual work and increases productivity which allows Nefco's to grow its’ customer base. 
+            </p>
+        </section>  
+        <h2> Choose Nefco and enjoy benefities</h2>
+        <section class="benefities_list">
+            <div class="benefities_item">
+                <img src="img/time.png" alt="icon time">
+                <h3> Save your time</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cumque cupiditate quaerat sunt blanditiis necessitatibus rem. Aut sed excepturi minima, veritatis magni nesciunt expedita vitae obcaecati nobis eos, alias velit?</p>
+            </div>
+            <div class="benefities_item">
+                <img src="img/money.png"  alt="icon money">
+                <h3>Pay less</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ea hic totam reprehenderit tempore amet, blanditiis itaque iste facere alias illum, dolores ut perspiciatis voluptates id eos consectetur odio. Dolore!</p>
+            </div>
+            <div class="benefities_item">
+                <img src="img/service.png"  alt="icon service">
+                <h3>Qualified service</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea tenetur, blanditiis doloribus nobis et! Natus ratione tempore iste maxime incidunt excepturi enim impedit vitae dolorem nisi et, officia dolores.</p>
+            </div>
+            <div class="benefities_item">
+                <img src="img/bonus.png"  alt="icon bonus">
+                <h3>Bonus program</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magni numquam enim cupiditate magnam incidunt modi ex recusandae veritatis pariatur nihil alias ipsum in voluptas nostrum? Beatae inventore eaque dolorem.</p>
+            </div>
+            <div class="benefities_item">
+                <img src="img/support.png"  alt="icon support">
+                <h3>24H online support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa sit, possimus aliquam vero laborum molestias ipsum dolores eius, assumenda quibusdam vitae, quia aspernatur ipsam veritatis ad dicta quidem autem!</p>
+            </div>
+            <div class="benefities_item">
+                <img src="img/worldWide.png"  alt="icon world wide  ">
+                <h3>World Wide Suppliers</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus voluptas ratione magni facere perspiciatis repudiandae repellendus maiores doloribus deserunt? Iusto explicabo dignissimos, eligendi provident.</p>
+            </div>
+        </section>
+    </article>
+    <article>  
+        <h2> Location</h2>
+        <div class="location">
+            <div class="address">
+                <p>     
+                    <i class="fas fa-map-marker-alt"></i> Forum Victoria Park, Okhtyrskyi Ln, 7, Kiev,  Ukraine,03680
+                </p>
+                <p> 
+                    <i class="fas fa-phone" ></i>
+                    <a href="tel:380 44 585 5935"> +380 44 585 5935 </a>
+                </p>
+                <p> 
+                    <i class="fas fa-fax"></i>
+                    <a href="tel:380 44 585 7053"> +380 44 585 7053 </a>
+                </p>
+                <p>
+                    <i class="fas fa-envelope-square"></i>
+                    info@controlpay.com
+                </p>
+                <div class="social_media">
+                    <a href="#" aria-label="Follow company on facebook.">
+                        <i class="fab fa-facebook" id="fb" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" aria-label="Send e-mail on gmail address.">
+                        <i class="fab fa-google-plus-square" id="gmail" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="twitter" aria-label="Follow company on twitter.">
+                        <i class="fab fa-twitter-square" id="twitter" aria-hidden="true"></i>
+                    </a>    
+                </div>
+            </div>
+            <div class="iframe_small">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.4320435981704!2d30.476184665729388!3d50.39578532946781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8d909c92b8b%3A0x31d1abb714330499!2sForum+Viktoriya+Park!5e0!3m2!1sru!2sua!4v1550887157010"
+                        width="300"
+                        height="225"
+                        style="border:0"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="iframe_big">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.4320435981704!2d30.476184665729388!3d50.39578532946781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8d909c92b8b%3A0x31d1abb714330499!2sForum+Viktoriya+Park!5e0!3m2!1sru!2sua!4v1550887157010"
+                        width="600"
+                        height="450"
+                        style="border:0"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </article>
+    <article class="contact_me">
+        <h2>Contact me</h2>
+        <p>
+            If you want to contact with me, please feel free to contact with me
+        </p>
+        <form method="GET">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="surname">Your Surname</label>
+                <input type="text" id="surname">
+            </div>
+            <div>
+                <label for="email">E-mail address</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="phoneNumber">Phone number</label>
+                <input type="text" id="phoneNumber">
+            </div>
+            <button type="submit">Send message</button>
+        </form>
+    </article>
+    <footer>
+        <p> This site is created and desiged by Anna Lyvytska</p>
+        <p>
+            <a href="test.html" target="_blank" rel="noopener" aria-label="Opens in a new tab.  Visit to see more sites">
+                Visit to see more sites
+                <span display="inline" class="new-link">
+                    <span class="visually-hidden">(opens in a new tab)</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" fill="currentColor"></path>
+                    </svg>
+                </span>
+            </a>
+        </p>
+    </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
